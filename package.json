@@ -1,0 +1,22 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "A new React-based rendition of the New York Times Article Search application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.10",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasondpeck/nytreact.git"
+  },
+  "homepage": "https://github.com/jasondpeck/nytreact#readme"
+}
