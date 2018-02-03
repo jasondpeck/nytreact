@@ -3,14 +3,14 @@ var express = require("express");
 var mongoose = require("mongoose");
 var Article = require("./models/Article")
 var bodyParser = require("body-parser");
-var logger = require("morgan");
+var morgan = require("morgan");
 
 // setting up express
 var app = express();
 var PORT = process.env.PORT || 3000;
 
 // setting up morgan
-app.use(logger("dev"));
+app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
